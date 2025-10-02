@@ -1,41 +1,150 @@
-* {
-  box-sizing: border-box;
-}
+
 
 html {
   font-family: sans-serif;
 }
 
-body {
-  margin: 0;
-  background: #ccc;
-}
+/* body{
+  background: url(/img/top-image) no-repeat top center, url(/top/top-image) no-repeat bottom center;
 
-article {
-  width: 210mm;
-  height: 297mm;
-  margin: 20px auto;
-  position: relative;
-}
+} */
 
-address {
+.bodydiv{
   position: absolute;
-  bottom: 8mm;
-  right: 20mm;
+  margin-left: 30%;
+  /* background-color: aqua; */
+  display: flex;
+  height: 80vh;
+  width:45vw;
+  flex-direction: column;
+  z-index: 1;
+  
 }
 
-h1 {
-  position: absolute;
-  top: 12mm;
-  left: 20mm;
-  width: 128px;
-  height: 128px;
-  font-size: 20px;
-  letter-spacing: 1px;
+.bodydiv img{
+  width: 6vw;
+  height: 6vw;
+  margin-bottom: 2vh;
+  margin-top: 7vh;
+  margin-left: 5vw;
+}
+
+.bodydiv p{
+  font-size: 60%;
+}
+
+
+.div1{
+  display: flex;
+  flex-wrap: wrap;
+  height: 20vh;
+  width: 30vw;
   text-align: center;
-  padding: 44px 0;
-  color: white;
-  text-shadow: 1px 1px 1px black;
+  /* background-color: blue; */
+  margin-left: 12%;
+
 }
+
+.div1 p{
+  
+  margin-top: 0;
+  align-self: center;
+}
+
+
+h1{
+  font-size: 7vh;
+  margin-left:  16%;
+  margin-bottom: 0;
+  margin-top: 0;
+  
+  
+}
+
+nav{
+  width: 30vw;
+  margin-bottom: 0;
+}
+
+ul {
+  display: flex;
+  float: left;
+
+}
+
+
+li {
+  list-style: none;
+  padding-left: 2vw;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+
+.div2{
+  height: 30vh;
+  width: 40vw;
+  /* background-color: orange; */
+  margin-top: 2vh;
+  display: flex;
+  
+}
+
+.div3{
+  width: 30vw;
+}
+
+.div4{
+  width: 30vw;
+  margin-left: 4vw;
+}
+
+.div2 h2{
+  font-size: 3vh;
+}
+
+
+
+
+
+
+
+.backgroundtop{
+  width: 100vw;
+  height: 30vw;
+  position: absolute;
+  background-image: url(/img/top-image.png);
+  background-repeat: no-repeat;
+  top: 0px;
+  color: black;
+  background-position-y: 0;
+  background-position-x: center;
+  z-index: 0;
+  
+}
+
+
+.backgroundbottom{
+  width: 100vw;
+  height: 30vw;
+  position: absolute;
+  background-image: url(/img/bottom-image.png);
+  background-repeat: no-repeat;
+  bottom: 0px;
+  color: black;
+  background-position-y: bottom;
+  background-position-x: center;
+  z-index: 0;
+  
+}
+
+/* .backgroundtop{
+  z-index: 0;
+  background-position-x: center;
+} */
 
 /* Your CSS below here */
