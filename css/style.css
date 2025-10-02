@@ -30,7 +30,9 @@ html {
 }
 
 .bodydiv p{
-  font-size: 60%;
+  font-size: 55%;
+ 
+
 }
 
 
@@ -42,13 +44,14 @@ html {
   text-align: center;
   /* background-color: blue; */
   margin-left: 12%;
+   text-align: center;
 
 }
 
 .div1 p{
   
   margin-top: 0;
-  align-self: center;
+  margin-left: 5vw;
 }
 
 
