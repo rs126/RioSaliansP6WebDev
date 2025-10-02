@@ -9,6 +9,30 @@ html {
 
 } */
 
+.backgroundimgdiv{
+  width: 7vw;
+  height: 7vw;
+  margin-left: 33vw;
+  margin-top: 5vh;
+  background-image: url(/img/logo.png);
+  align-items: center;
+  margin-bottom: 4vh;
+
+  background-repeat: no-repeat;
+  display: flex;
+
+}
+
+.backgroundimgdiv h1{
+  color: white;
+  font-size: 2vh;
+  margin-top: 1%;
+  text-shadow: 2px 2px 3px black;
+  
+} 
+
+
+
 .bodydiv{
   position: absolute;
   margin-left: 30%;
@@ -31,7 +55,6 @@ html {
 
 .bodydiv p{
   font-size: 55%;
- 
 
 }
 
@@ -60,14 +83,14 @@ h1{
   font-size: 5vh;
   margin-left:  16%;
   margin-bottom: 0;
-  margin-top: 0;
+  margin-top: -2vh;
   
   
 }
 
 nav{
   width: 30vw;
-  margin-bottom: 0;
+  margin-bottom: -9vh;
 }
 
 ul {
@@ -79,7 +102,7 @@ ul {
 
 li {
   list-style: none;
-  padding-left: 2vw;
+  padding-left: 1vw;
 }
 
 a {
@@ -109,6 +132,11 @@ a {
 
 .div2 h2{
   font-size: 2vh;
+}
+
+hr {
+  border: 2px solid black;
+  width: 28vw;
 }
 
 
