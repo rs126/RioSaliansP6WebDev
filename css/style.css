@@ -43,7 +43,7 @@ html {
   width: 30vw;
   text-align: center;
   /* background-color: blue; */
-  margin-left: 12%;
+  margin-left: 5%;
    text-align: center;
 
 }
@@ -52,11 +52,12 @@ html {
   
   margin-top: 0;
   margin-left: 5vw;
+  margin-bottom: -5vh;
 }
 
 
 h1{
-  font-size: 7vh;
+  font-size: 5vh;
   margin-left:  16%;
   margin-bottom: 0;
   margin-top: 0;
@@ -90,7 +91,7 @@ a {
 
 .div2{
   height: 30vh;
-  width: 40vw;
+  width: 33vw;
   /* background-color: orange; */
   margin-top: 2vh;
   display: flex;
@@ -107,7 +108,7 @@ a {
 }
 
 .div2 h2{
-  font-size: 3vh;
+  font-size: 2vh;
 }
 
 
