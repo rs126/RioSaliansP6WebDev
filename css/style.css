@@ -1,32 +1,33 @@
-
-
 html {
-  font-family: sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* body{
-  background: url(/img/top-image) no-repeat top center, url(/top/top-image) no-repeat bottom center;
 
-} */
+body{
+  background-color: white;
+}
 
 .backgroundimgdiv{
-  width: 7vw;
-  height: 7vw;
-  margin-left: 33vw;
-  margin-top: 5vh;
+  width: 130px;
+  height: 130px;
+  margin-left: 25vw;
+  margin-top: 8vh;
   background-image: url(/img/logo.png);
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
   align-items: center;
   margin-bottom: 4vh;
-
   background-repeat: no-repeat;
   display: flex;
+  z-index: 10;
 
 }
 
 .backgroundimgdiv h1{
   color: white;
-  font-size: 2vh;
-  margin-top: 1%;
+  font-size: 3vh;
+  margin-left: 10%;
+  top: 1vh;
   text-shadow: 2px 2px 3px black;
   
 } 
@@ -35,13 +36,15 @@ html {
 
 .bodydiv{
   position: absolute;
-  margin-left: 30%;
+  margin-left: 28%;
   /* background-color: aqua; */
   display: flex;
-  height: 80vh;
+  height: 900px;
   width:45vw;
   flex-direction: column;
   z-index: 1;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 'Lucida Sans';
+  
   
 }
 
@@ -51,6 +54,8 @@ html {
   margin-bottom: 2vh;
   margin-top: 7vh;
   margin-left: 5vw;
+  padding-bottom: 180px;
+
 }
 
 .bodydiv p{
@@ -63,34 +68,43 @@ html {
   display: flex;
   flex-wrap: wrap;
   height: 20vh;
-  width: 30vw;
+  width: 38vw;
   text-align: center;
   /* background-color: blue; */
   margin-left: 5%;
-   text-align: center;
+  margin-top: 8vh;
+  text-align: center;
+ 
 
 }
 
 .div1 p{
   
-  margin-top: 0;
-  margin-left: 5vw;
+  margin-top: -3vh;
+  margin-left: 4vw;
   margin-bottom: -5vh;
 }
 
 
 h1{
-  font-size: 5vh;
-  margin-left:  16%;
+  font-size: 6vh;
+  margin-left:  23%;
   margin-bottom: 0;
-  margin-top: -2vh;
+  margin-top: -1vh;
+  padding-top: 8px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
   
 }
 
+button{
+  font-size: 55%;
+}
+
 nav{
   width: 30vw;
-  margin-bottom: -9vh;
+  margin-bottom: -7vh;
+  margin-left: 6vw;
 }
 
 ul {
@@ -103,6 +117,7 @@ ul {
 li {
   list-style: none;
   padding-left: 1vw;
+  font-size: small;
 }
 
 a {
@@ -111,10 +126,28 @@ a {
 
 }
 
+label{
+  font-size: 55%;
+}
+
+.formdiv{
+  display: flex;
+  gap: 10px;
+  
+}
+
+.buttondiv{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+
 
 .div2{
   height: 30vh;
-  width: 33vw;
+  width: 45vw;
   /* background-color: orange; */
   margin-top: 2vh;
   display: flex;
@@ -126,17 +159,19 @@ a {
 }
 
 .div4{
-  width: 30vw;
+  width: 32vw;
   margin-left: 4vw;
 }
 
 .div2 h2{
   font-size: 2vh;
+
 }
 
 hr {
-  border: 2px solid black;
-  width: 28vw;
+    border: 2px;
+    height: 1px;
+    background: linear-gradient(to right,rgba(0,0,0,9),rgba(0,0,0,9),rgba(0,0,0,9))
 }
 
 
@@ -146,12 +181,14 @@ hr {
 
 
 .backgroundtop{
-  width: 100vw;
-  height: 30vw;
+  width: 807px;
+  height: 200px;
   position: absolute;
-  background-image: url(/img/top-image.png);
+  background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.164)), url(/img/top-image.png);
+
   background-repeat: no-repeat;
   top: 0px;
+  left: 260px;
   color: black;
   background-position-y: 0;
   background-position-x: center;
@@ -161,22 +198,32 @@ hr {
 
 
 .backgroundbottom{
-  width: 100vw;
-  height: 30vw;
-  position: absolute;
-  background-image: url(/img/bottom-image.png);
+  width: 807px;
+  height: 200px;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.164)), url(/img/bottom-image.png);
   background-repeat: no-repeat;
   bottom: 0px;
   color: black;
+  position: absolute;
+  left: 260px;
+  top: 830px;
+
   background-position-y: bottom;
   background-position-x: center;
   z-index: 0;
   
 }
 
-/* .backgroundtop{
-  z-index: 0;
-  background-position-x: center;
-} */
+.backgroundbottom2{
+  padding-bottom: 300px
+}
 
-/* Your CSS below here */
+.bottomtext{
+  width: 140px;
+  height: 110px;
+  position: absolute;
+  top: 890px;
+  font-size: 70%;
+  right: 320px;
+}
+
